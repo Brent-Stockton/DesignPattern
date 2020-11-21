@@ -7,7 +7,8 @@ public abstract class Farm {
     private int numFarmers;
     private double passiveCurrency;
     private boolean newPassiveCurrency = false;
-    
+    public double upgrade;
+  
     public boolean getNewPassiveCurrency() {
         return newPassiveCurrency;
     }
@@ -15,8 +16,6 @@ public abstract class Farm {
     public void setNewPassiveCurrency(boolean newPassiveCurrency) {
         this.newPassiveCurrency = newPassiveCurrency;
     }
-
-    public double upgrade;
 
     public String getFarmType() {
         return farmType;
@@ -96,11 +95,6 @@ public abstract class Farm {
         }
         return numAcres;
         
-    }
-
- 
-
-   
-    
+    }    
 
 }
