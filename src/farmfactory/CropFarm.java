@@ -1,13 +1,12 @@
 package farmfactory;
 
-public class CropFarm implements Farm {
+public class CropFarm extends Farm {
     
-    private String Crop;
-    private String Farmer;
-    
-    public CropFarm(String crop, String Farmer) {
-        this.Farmer = Farmer;
-        this.Crop = Crop;
+    public CropFarm() {
+        setFarmType("Crop Farm");
+        setNumFarmers(6);
+        setPassiveCurrency(1000.00);
+        displayFarm();
+        displayPassiveCurrency();              
     }
-
 }
