@@ -1,12 +1,12 @@
 package affinitydecorator;
 
-public class BasicFarmer implements Farmer {
+public class BasicAnimal implements Animal {
 
     
     @Override
-    public String getDescription(int numCrops) {
+    public String getDescription() {
         // TODO Auto-generated method stub      
-        return " " + numCrops;
+        return " ";
     }
 
     @Override
@@ -20,6 +20,7 @@ public class BasicFarmer implements Farmer {
         // TODO Auto-generated method stub
         return 1000.000;
     }
+
     
     
 

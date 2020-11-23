@@ -1,8 +1,8 @@
 package affinitydecorator;
 
-public interface Farmer {
-    
-    public String getDescription(int numCrops);
+public interface Animal {
+   
+    public String getDescription();
     
     public double getCost();
     

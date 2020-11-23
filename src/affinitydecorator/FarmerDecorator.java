@@ -8,12 +8,16 @@ public abstract class FarmerDecorator implements Farmer {
         tempBasicFarmer = newFarmer;       
     }
     
-    public String getDescription() {
-        return tempBasicFarmer.getDescription();
+    public String getDescription(int numCrops ) {
+        return tempBasicFarmer.getDescription(numCrops);
     }
     
     public double getCost() {
         return tempBasicFarmer.getCost();
+    }
+    
+    public double getBalance() {
+        return tempBasicFarmer.getBalance();
     }
 
 }
