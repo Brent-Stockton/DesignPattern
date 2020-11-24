@@ -2,12 +2,15 @@ package farmfactory;
 
 public abstract class Farm {
     
-    private String farmType;
-    private int numAcres;
-    private int numFarmers;
-    private double passiveCurrency;
-    private boolean newPassiveCurrency = false;
-    public double upgrade;
+    private String farmType; //Type of Farm to Build
+    private int numAcres = 5; //number of Acres on farm
+    private int numFarmers = 6; //number of farmers on farm. Default is 6
+    private int numAnimals = 6;
+    private int numCrops = 25;
+    private double passiveCurrency; //how much currency is earned in a day/cyle
+    private boolean newPassiveCurrency = false; //passive currency boolean
+    public double upgrade; //upgrade amount
+    
   
     public boolean getNewPassiveCurrency() {
         return newPassiveCurrency;
@@ -59,19 +62,49 @@ public abstract class Farm {
         this.passiveCurrency = passiveCurrency;
     }
     
+    public int getNumAnimals() {
+        return numAnimals;
+    }
+
+    public void setNumAnimals(int numAnimals) {
+        this.numAnimals = numAnimals;
+    }
+
+    public int getNumCrops() {
+        return numCrops;
+    }
+
+    public void setNumCrops(int numCrops) {
+        this.numCrops = numCrops;
+    }    
+    
     public void displayFarm() {
-        System.out.println("Your farm is " + getFarmType());
+        System.out.println("Your farm is " + getFarmType() + ".");
     }
     
     public void dislayAcres() {
-        System.out.println("You have " + getNumAcres() + " Acres");
+        System.out.println("You have " + getNumAcres() + " Acres.");
     }
     
     public void displayPassiveCurrency() {
-        System.out.print("Your passive currency is " + getPassiveCurrency());
+        System.out.print("Your passive currency is " + getPassiveCurrency() + ".");
     }
     
-    public double upgradePassiveCurrency() {
+    public void displayFarmers() {
+        System.out.println("Your number of farmers is " + getNumFarmers() + ".");
+    }
+    
+    public void displayNumAnimals() {
+        System.out.println("You have " + getNumAnimals() + " animals.");
+    }
+    
+    public void displayNumCrops() {
+        System.out.println("You have " + getNumCrops() + " crops.");
+    }
+    
+    
+    
+ double upgradePassiveCurrency() {
         if(passiveCurrency >= upgrade) {
             newPassiveCurrency = true;
             double passiveCurrencyUpgrage = passiveCurrency - upgrade;
@@ -95,6 +128,6 @@ public abstract class Farm {
         }
         return numAcres;
         
-    }    
+    }
 
 }

@@ -1,0 +1,27 @@
+plugins{
+id "com.github.spotbugs" version "4.5.1"
+id "checkstyle"
+}
+
+apply plugin: 'application'
+apply plugin 'jacoco'
+
+
+
+mainClassName = '/DesignPattern/src/Main.java'
+
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    jcenter()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    compile "junit:junit:4.12"
+    //compile files('cls/')
+}
+
+
+ 
+ 
