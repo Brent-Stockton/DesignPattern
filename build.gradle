@@ -6,7 +6,7 @@ plugins {
 apply plugin: 'application'
 apply plugin: 'jacoco'
 
-mainClassName = 'DesignPattern.src.Main.java'
+mainClassName = 'Main'
 
 // Repositories and dependencies for code go here
 repositories {

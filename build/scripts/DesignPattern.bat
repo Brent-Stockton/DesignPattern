@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\DesignPattern.jar;%APP_HOME%\lib\junit-4.12.jar;%AP
 
 
 @rem Execute DesignPattern
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %DESIGN_PATTERN_OPTS%  -classpath "%CLASSPATH%" DesignPattern.src.Main.java %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %DESIGN_PATTERN_OPTS%  -classpath "%CLASSPATH%" Main %*
 
 :end
 @rem End local scope for the variables with windows NT shell
