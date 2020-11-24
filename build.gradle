@@ -1,27 +1,18 @@
-plugins{
-id "com.github.spotbugs" version "4.5.1"
-id "checkstyle"
-}
-
 apply plugin: 'application'
-apply plugin 'jacoco'
 
+mainClassName = '/DesignPattern/src/Main/Main.java'
 
+compileJava.options.encoding = 'UTF-8'
 
-mainClassName = '/DesignPattern/src/Main.java'
-
-
-// In this section you declare where to find the dependencies of your project
+// Repositories and dependencies for code go here
 repositories {
-    jcenter()
+  jCenter()
 }
 
-// In this section you declare the dependencies for your production and test code
 dependencies {
-    compile "junit:junit:4.12"
-    //compile files('cls/')
+  compile 'com.io7m.xom:xom:1.2.+'
+  compile 'net.sourceforge.nekohtml:nekohtml:1.9.+'
 }
-
 
  
  
