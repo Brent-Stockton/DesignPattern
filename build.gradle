@@ -1,12 +1,12 @@
-plugins {
-    id "com.github.spotbugs" version "4.5.1"
-    id "checkstyle"
-}
+//plugins {
+//    id "com.github.spotbugs" version "4.5.1"
+//    id "checkstyle"
+//}
 
 apply plugin: 'application'
 apply plugin: 'jacoco'
 
-mainClassName = 'DesignPattern.src.Main.java'
+mainClassName = 'Main'
 
 // Repositories and dependencies for code go here
 repositories {
@@ -15,22 +15,27 @@ repositories {
 
 dependencies {
   compile "junit:junit:4.12"
+  compile files('cls/')
   
 }
 
+run{
+    standardInput = System.in
+}
+
  
- apply plugin: 'checkstyle'
+ //apply plugin: 'checkstyle'
  
- checkstyle {
+ //checkstyle {
  
- ignoreFailures = true
- showViolations = false
+ //ignoreFailures = true
+ //showViolations = false
  
- }
+ //}
  
- tasks.withType(Checkstyle){
- reports{
- html.enabled = true
- xml.enabled = true
- }
- }
+ //tasks.withType(Checkstyle){
+ //reports{
+ //html.enabled = true
+ //xml.enabled = true
+ //}
+ //}
