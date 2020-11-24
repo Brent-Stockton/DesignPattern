@@ -1,26 +1,26 @@
 package affinitydecorator;
 
+/**Basic Farmer Class that implements Farmer interface.*/
 public class BasicFarmer implements Farmer {
 
-    
-    @Override
-    public String getDescription(int numCrops) {
-        // TODO Auto-generated method stub      
-        return " " + numCrops;
-    }
+  /**
+  * Method gets description of basic farmer.
+  * @param numCrops represents number of crops
+  */
+  @Override
+  public String getDescription(int numCrops) {     
+    return " " + numCrops;
+  }
+  
+  /** Method gets cost for basic farmer.*/
+  @Override
+  public double getCost() {        
+    return 0.00;
+  }
 
-    @Override
-    public double getCost() {
-        // TODO Auto-generated method stub
-        return 0.00;
-    }
-
-    @Override
-    public double getBalance() {
-        // TODO Auto-generated method stub
-        return 1000.000;
-    }
-    
-    
-
+  /** Method gets balance for basic farmer.*/
+  @Override
+  public double getBalance() {
+    return 1000.000;
+  }
 }

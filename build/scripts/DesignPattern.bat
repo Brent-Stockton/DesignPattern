@@ -67,11 +67,11 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\DesignPattern.jar;%APP_HOME%\lib\xom-1.2.10.jar;%APP_HOME%\lib\nekohtml-1.9.22.jar;%APP_HOME%\lib\xalan-2.7.0.jar;%APP_HOME%\lib\xercesImpl-2.11.0.jar
+set CLASSPATH=%APP_HOME%\lib\DesignPattern.jar;%APP_HOME%\lib\junit-4.12.jar;%APP_HOME%\lib\hamcrest-core-1.3.jar
 
 
 @rem Execute DesignPattern
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %DESIGN_PATTERN_OPTS%  -classpath "%CLASSPATH%"  %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %DESIGN_PATTERN_OPTS%  -classpath "%CLASSPATH%" DesignPattern.src.Main.java %*
 
 :end
 @rem End local scope for the variables with windows NT shell

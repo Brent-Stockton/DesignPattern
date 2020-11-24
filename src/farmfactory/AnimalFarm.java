@@ -1,14 +1,16 @@
 package farmfactory;
 
+/**Animal Farm class that extends Farm.*/
 public class AnimalFarm extends Farm {
     
-    public AnimalFarm() {
+  /**Animal farm constructor.*/
+  public AnimalFarm() {
         
-        displayFarm();
-        displayFarmers();
-        dislayAcres();
-        displayNumAnimals();
-        displayPassiveCurrency();        
+    displayFarm();
+    displayFarmers();
+    dislayAcres();
+    displayNumAnimals();
+    displayPassiveCurrency();        
         
-    }    
+  }    
 }

@@ -1,22 +1,24 @@
 package affinitydecorator;
 
 public abstract class AnimalDecorator implements Animal {
- protected Animal tempBasicAnimal;
+  protected Animal tempBasicAnimal;
     
-    public AnimalDecorator(Animal newAnimal) {     
-        tempBasicAnimal = newAnimal;       
-    }
+  /** Contructor for AnimalDecorator.*/
+  public AnimalDecorator(Animal newAnimal) {     
+    tempBasicAnimal = newAnimal;       
+  }
     
-    public String getDescription() {
-        return tempBasicAnimal.getDescription();
-    }
+  /** getDescription method. */
+  public String getDescription() {
+    return tempBasicAnimal.getDescription();
+  }
     
-    public double getCost() {
-        return tempBasicAnimal.getCost();
-    }
+  public double getCost() {
+    return tempBasicAnimal.getCost();
+  }
     
-    public double getBalance() {
-        return tempBasicAnimal.getBalance();
-    }
+  public double getBalance() {
+    return tempBasicAnimal.getBalance();
+  }
 
 }

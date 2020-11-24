@@ -2,10 +2,10 @@ package affinitydecorator;
 
 public interface Farmer {
     
-    public String getDescription(int numCrops);
+  public String getDescription(int numCrops); //gets description
     
-    public double getCost();
+  public double getCost(); //gets cost
     
-    public double getBalance();
-
+  public double getBalance(); //gets balance
+ 
 }

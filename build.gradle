@@ -1,18 +1,36 @@
+plugins {
+    id "com.github.spotbugs" version "4.5.1"
+    id "checkstyle"
+}
+
 apply plugin: 'application'
+apply plugin: 'jacoco'
 
-mainClassName = '/DesignPattern/src/Main/Main.java'
-
-compileJava.options.encoding = 'UTF-8'
+mainClassName = 'DesignPattern.src.Main.java'
 
 // Repositories and dependencies for code go here
 repositories {
-  jCenter()
+  jcenter()
 }
 
 dependencies {
-  compile 'com.io7m.xom:xom:1.2.+'
-  compile 'net.sourceforge.nekohtml:nekohtml:1.9.+'
+  compile "junit:junit:4.12"
+  
 }
 
  
+ apply plugin: 'checkstyle'
  
+ checkstyle {
+ 
+ ignoreFailures = true
+ showViolations = false
+ 
+ }
+ 
+ tasks.withType(Checkstyle){
+ reports{
+ html.enabled = true
+ xml.enabled = true
+ }
+ }

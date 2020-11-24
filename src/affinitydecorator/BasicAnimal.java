@@ -1,25 +1,26 @@
 package affinitydecorator;
 
+/*Basic Animal Class that implements Animal Interface.*/
 public class BasicAnimal implements Animal {
 
-    
-    @Override
-    public String getDescription() {
-        // TODO Auto-generated method stub      
-        return " ";
-    }
+  /**Method that gets description of basic animal.*/  
+  @Override
+  public String getDescription() {
+    return " ";
+  }
 
-    @Override
-    public double getCost() {
-        // TODO Auto-generated method stub
-        return 0.00;
-    }
+  /**Method that gets cost of basic animal.*/ 
+  @Override
+  public double getCost() {     
+    return 0.00;
+  }
 
-    @Override
-    public double getBalance() {
-        // TODO Auto-generated method stub
-        return 1000.000;
-    }
+  /**Method that gets balance of basic animal.*/ 
+  @Override
+  public double getBalance() {
+      
+    return 1000.000;
+  }
 
     
     

@@ -1,12 +1,14 @@
 package farmfactory;
 
+/**CropFarm class used to build cropFarm.*/
 public class CropFarm extends Farm {
-    
-    public CropFarm() {
-        displayFarm();
-        displayFarmers();
-        dislayAcres();
-        displayNumCrops();
-        displayPassiveCurrency();              
-    }
+  
+  /**CropFarm constructor.*/
+  public CropFarm() {
+    displayFarm();
+    displayFarmers();
+    dislayAcres();
+    displayNumCrops();
+    displayPassiveCurrency();              
+  }
 }
