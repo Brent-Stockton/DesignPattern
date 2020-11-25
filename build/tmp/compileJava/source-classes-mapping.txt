@@ -4,12 +4,8 @@ affinitydecorator/AnimalDecorator.java
  affinitydecorator.AnimalDecorator
 animalstrategypattern/Cow.java
  animalstrategypattern.Cow
-farmfactory/Main.java
- farmfactory.Main
 animalstrategypattern/Wolf.java
  animalstrategypattern.Wolf
-animalstrategypattern/AnimalTest.java
- animalstrategypattern.AnimalTest
 Main.java
  Main
 affinitydecorator/CowGrow.java
@@ -44,8 +40,6 @@ affinitydecorator/FarmerDecorator.java
  affinitydecorator.FarmerDecorator
 farmfactory/Farm.java
  farmfactory.Farm
-affinitydecorator/Main.java
- affinitydecorator.Main
 farmfactory/CropFarm.java
  farmfactory.CropFarm
 animalstrategypattern/Rabbit.java

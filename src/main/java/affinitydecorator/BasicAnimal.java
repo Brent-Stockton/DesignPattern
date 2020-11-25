@@ -19,7 +19,7 @@ public class BasicAnimal implements Animal {
   @Override
   public double getBalance() {
       
-    return 1000.000;
+    return 1000.00;
   }
 
     

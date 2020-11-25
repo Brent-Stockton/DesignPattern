@@ -78,20 +78,23 @@ public abstract class Farm {
     this.numCrops = numCrops;
   }    
     
-  public void displayFarm() {
-    System.out.println("Your farm is " + getFarmType() + ".");
+  public String displayFarm() {
+    String ans = "Your farm is " + getFarmType() + ".";
+    return ans;
   }
     
-  public void dislayAcres() {
-    System.out.println("You have " + getNumAcres() + " Acres.");
+  public String dislayAcres() {
+    String ans = "You have " + getNumAcres() + " Acres.";
+    return ans;
   }
     
   public void displayPassiveCurrency() {
     System.out.print("Your passive currency is " + getPassiveCurrency() + ".");
   }
     
-  public void displayFarmers() {
-    System.out.println("Your number of farmers is " + getNumFarmers() + ".");
+  public String displayFarmers() {
+    String ans = "Your number of farmers is " + getNumFarmers() + ".";
+    return ans;
   }
     
   public void displayNumAnimals() {

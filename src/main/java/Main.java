@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
 
   /**Main method to run program.*/
-  public static void main(String[] args) {
+    public static void main(String[] args) {
         
         
     //BUILD FARM - FACTORY PATTERN
