@@ -1,0 +1,63 @@
+animalstrategypattern/FarmAnimal.java
+ animalstrategypattern.FarmAnimal
+affinitydecorator/AnimalDecorator.java
+ affinitydecorator.AnimalDecorator
+animalstrategypattern/Cow.java
+ animalstrategypattern.Cow
+farmfactory/Main.java
+ farmfactory.Main
+animalstrategypattern/Wolf.java
+ animalstrategypattern.Wolf
+animalstrategypattern/AnimalTest.java
+ animalstrategypattern.AnimalTest
+Main.java
+ Main
+affinitydecorator/CowGrow.java
+ affinitydecorator.CowGrow
+affinitydecorator/CropPlant.java
+ affinitydecorator.CropPlant
+farmfactory/AnimalFarm.java
+ farmfactory.AnimalFarm
+affinitydecorator/HorseSpeed.java
+ affinitydecorator.HorseSpeed
+farmfactory/HybridFarm.java
+ farmfactory.HybridFarm
+farmfactory/FarmFactory.java
+ farmfactory.FarmFactory
+affinitydecorator/MoneySkills.java
+ affinitydecorator.MoneySkills
+animalstrategypattern/Horse.java
+ animalstrategypattern.Horse
+affinitydecorator/SheepWool.java
+ affinitydecorator.SheepWool
+affinitydecorator/BasicFarmer.java
+ affinitydecorator.BasicFarmer
+affinitydecorator/Animal.java
+ affinitydecorator.Animal
+affinitydecorator/BasicAnimal.java
+ affinitydecorator.BasicAnimal
+affinitydecorator/Farmer.java
+ affinitydecorator.Farmer
+animalstrategypattern/Sheep.java
+ animalstrategypattern.Sheep
+affinitydecorator/FarmerDecorator.java
+ affinitydecorator.FarmerDecorator
+farmfactory/Farm.java
+ farmfactory.Farm
+affinitydecorator/Main.java
+ affinitydecorator.Main
+farmfactory/CropFarm.java
+ farmfactory.CropFarm
+animalstrategypattern/Rabbit.java
+ animalstrategypattern.Rabbit
+animalstrategypattern/Mole.java
+ animalstrategypattern.Mole
+animalstrategypattern/Fox.java
+ animalstrategypattern.Fox
+affinitydecorator/AnimalRear.java
+ affinitydecorator.AnimalRear
+animalstrategypattern/AnimalType.java
+ animalstrategypattern.AnimalType
+ animalstrategypattern.isFarmAnimal
+ animalstrategypattern.isFarmAnimal$isCrop
+ animalstrategypattern.isPreditor
