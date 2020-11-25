@@ -13,26 +13,30 @@ repositories {
   jcenter()
 }
 
+
+
 dependencies {
   compile "junit:junit:4.12"
   compile files('cls/')
-  
+
 }
 
 run{
     standardInput = System.in
 }
 
- 
+
+
+
  //apply plugin: 'checkstyle'
- 
+
  //checkstyle {
- 
+
  //ignoreFailures = true
  //showViolations = false
- 
+
  //}
- 
+
  //tasks.withType(Checkstyle){
  //reports{
  //html.enabled = true

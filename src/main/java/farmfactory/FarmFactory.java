@@ -9,14 +9,11 @@ public class FarmFactory {
         
     if ((newFarmType.equals("A")) || newFarmType.equals("a")) {          
       return new AnimalFarm();
-    }
-    else if ((newFarmType.equals("C")) || newFarmType.equals("c")) {               
+    } else if ((newFarmType.equals("C")) || newFarmType.equals("c")) {               
       return new CropFarm();
-    }
-    else if ((newFarmType.equals("H")) || newFarmType.equals("h")) {               
+    } else if ((newFarmType.equals("H")) || newFarmType.equals("h")) {               
       return new HybridFarm();
-    }
-    else {
+    } else {
       return null;
     }
   }

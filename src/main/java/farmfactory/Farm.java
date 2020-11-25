@@ -110,9 +110,7 @@ public abstract class Farm {
       double passiveCurrencyUpgrage = passiveCurrency - upgrade;
       System.out.println("Upgrade complete! Your new balance is " + passiveCurrencyUpgrage);
       return passiveCurrencyUpgrage;
-    }
-            
-    else  {
+    } else  {
       System.out.println("You do not have enough "
               + "currency to upgrade. Your balance is " + passiveCurrency);
       return passiveCurrency;

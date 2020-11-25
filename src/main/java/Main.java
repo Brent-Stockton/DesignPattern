@@ -26,8 +26,7 @@ public class Main {
     }
     if (theFarm != null) {
       makeFarm(theFarm);
-    }
-    else { 
+    } else { 
       System.out.println("Please Type in Valid Farm Character: A / C / H");
     }
         
@@ -79,14 +78,10 @@ public class Main {
       if (randomPred == 3) {
         System.out.println("Oh no! It looks like one of your farm "
                 + "animals was eaten by a Wolf."); 
-      } 
-      
-      else {
+      }  else {
         System.out.println("Few looks like there is no preditors nearby...");
       }
-    }
-        
-    else {
+    } else {
       System.out.println("Sorry, Please enter C to continue...");           
     }       
     
@@ -175,9 +170,7 @@ public class Main {
           break;
       }        
       
-    }
-    
-    else {
+    } else {
       System.out.println("Hi");
     }    
   }
